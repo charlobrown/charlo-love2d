@@ -1,13 +1,13 @@
 # How to build (Windows)
 1. Install [LÖVE2D](https://love2d.org/#download).
-2. Move or copy love.exe to the "src" folder.
-3. Use WinRAR or 7-Zip (Or another tool that can zip files) to zip all files in the "src" folder.
-4. Rename the zipped file from `charlo.zip` to `charlo.love`.
+2. Use WinRAR or 7-Zip (Or another tool that can zip files) to zip all files in the "src" folder.
+3. Rename the zipped file from `charlo.zip` to `charlo.love`.
 
 (Naming the zipped file as "charlo" can be important if you don't know how to use cmd in steps 5-7)
 
+4. Move or copy `love.exe` (And necessary DLLs) to the folder or directory where `charlo.love` is.
 5. Press Win + R and type "cmd".
-6. In the terminal (Command Prompt), set your current directory to the "src" folder.
+6. In the terminal (Command Prompt), set your current directory to the directory where `charlo.love` is.
 7. Type in, `copy /b love.exe+charlo.love charlo.exe`
 ## Editing metadata and icon (Optional)
 1. [Download Resource Hacker](https://www.angusj.com/resourcehacker/#download). (Recommended: EXE install)
